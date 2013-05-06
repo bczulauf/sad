@@ -1,0 +1,223 @@
+body {
+   margin: 0px;
+   padding: 0px;
+   background-color: #E6E5E3;
+}
+
+input {
+   display: block;
+   box-shadow: none;
+   height: 30px;
+   width: 30%;
+   padding: 0px;
+   text-indent: 5px;
+   border: none;
+}
+
+::-webkit-input-placeholder {
+   color: #888;
+}
+
+
+legend {
+   font-size: 32px;
+   margin-bottom: 20px;
+}
+
+button {
+   border: none;
+   font-size: 15px;
+   margin: 0px;
+   cursor: pointer;
+}
+
+table {
+  max-width: 100%;
+  background-color: transparent;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+textarea {
+    resize: none;
+}
+
+.textarea {
+   border: none;
+   padding: 5px;
+}
+
+.logo {
+   float: left;
+   line-height: 30px;
+   font-family: Belgrano;
+   font-size: 22px;
+   color: #FFF;
+}
+
+#post-input {
+   float: right;
+   font-size: 15px;
+   width: 25%;
+   height: 20px;
+   min-width: 360px;
+   margin: 0px;
+   text-indent: 0px;
+}
+
+#post-button {
+   float: right;
+   margin-left: 10px;
+}
+
+.image-upload {
+   float: right;
+   height: 30px;
+   width: 30px;
+   cursor: pointer;
+   background-color: #4F5860;
+   border-radius: 3px;
+   margin-left: 5px;
+}
+
+#image-label {
+  background-image: url(img/camera.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.table {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.table th,
+.table td {
+  padding: 8px;
+  line-height: 20px;
+  text-align: left;
+  vertical-align: top;
+  border-top: 1px solid #dddddd;
+}
+
+.table th {
+  font-weight: bold;
+}
+
+.table thead th {
+  vertical-align: bottom;
+}
+
+.page {
+   font-family: 'Open Sans', sans-serif;
+   font-size: 15px;
+}
+
+.container {
+   margin: 0 auto;
+   width: 980px;
+}
+
+.content {
+   padding: 20px;
+}
+
+.top-bar {
+   height: 50px;
+   width: 100%;
+   background-color: #2A313A;
+   border-bottom: 1px solid #f8f8f8;
+}
+
+.top-bar-content {
+   padding: 10px
+}
+
+.btn {
+   padding: 0px 20px;
+   display: inline-block;
+   color: #fff;
+   text-decoration: none;
+   height: 30px;
+   line-height: 30px;
+   font-weight: 600;
+   border-radius: 3px;
+}
+
+.btn-primary {
+   background-color: #7cc576;
+}
+
+.btn-primary:hover {
+   background-color: #4b8046;
+}
+
+.btn-primary:active {
+   background-color: #2b4f27;
+}
+
+.inpt {
+   margin-bottom: 10px;
+}
+
+#join-button {
+   float: right;
+}
+
+.post {
+   float: left;
+   margin: 0 0 20px 20px;
+   width: 300px;
+   box-shadow: 0px 1px 3px rgba(0,0,0,.4);
+}
+
+.post:nth-child(3n-2) {
+   margin: 0 0 20px 0;
+}
+
+.post-image {
+   height: 200px;
+   width: 100%;
+   background-color: #525556;
+}
+
+.post-text {
+   background-color: #fff;
+   padding: 10px;
+   font-size: 13px;
+   color: #555;
+   height: 40px;
+}
+
+.post-info {
+   background-color: #F8F8F8;
+   height: 30px;
+}
+
+.post-user {
+   float: left;
+   line-height: 30px;
+   font-size: 14px;
+   margin-left: 10px;
+}
+
+.post-commiserate {
+   float: right;
+   margin-right: 10px;
+   background-color: #F26C4F;
+   border-radius: 3px;
+   margin-top: 4px;
+   height: 22px;
+   width: 22px;
+   background-image: url(img/commiserate.png);
+   background-repeat: no-repeat;
+   background-position: center;
+}
+
+.commiserate-count {
+   float: right;
+   font-size: 11px;
+   color: #AAA;
+   line-height: 30px;
+   margin-right: 10px;
+}
